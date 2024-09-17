@@ -1,0 +1,176 @@
+body{
+    font-family: "Playfair Display", serif;
+    height: 100vh;
+    background-color: orange;
+    background-image: url(./Imagens/narutocapa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    max-width: 150px;
+    padding-left: 50px;
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.lista-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 30px;
+}
+.lista-nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 23px;
+    transition: 0.2s ease-in-out;
+}
+.lista-nav a:hover{
+    text-decoration: underline;
+    color: rgb(236, 217, 217);
+}
+.lista{
+    background-image: url(./Imagens/Naruto.capa.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista-infos{
+    background-color: white;
+    color: rgb(209, 139, 10);
+    padding: 30px;
+    border-radius: 20px;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.lista-titulo{
+    font-size: 30px;
+}
+.lista-texto{
+    font-size: 20px;
+}
+.lista-botao{
+    text-decoration: none;
+    background-color: black;
+    color: orange;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.lista-botao:hover{
+    transform: scale(1.01);
+    color: black;
+    background-color: orange;
+}
+.categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.categoria-titulo{
+    background-color: white;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.div-maior{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 900px;
+    gap: 10px;
+}
+.div-menor{
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+    margin: 20px 0;
+}
+.foto{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.curiosidade{
+    margin-left: 20px;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Playfair Display", serif;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+}
+.div-menor:hover{
+    transform: scale(1.1);
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.sobre-titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.sobre-infos{
+    background-color: black;
+    color: orange;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.sobre-texto{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 5px solid black;
+    padding-top: 20px;
+    color: black;
+}
+.footer-subtitulo{
+    font-size: 30px;
+    background-color: black;
+    color: orange;
+}
+.footer-texto{
+    background-color: black;
+    color: orange;
+}
